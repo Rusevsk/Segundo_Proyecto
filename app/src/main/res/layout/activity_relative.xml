@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Relative">
+
+    <TextView
+        android:id="@+id/Cuadro1"
+        android:layout_centerInParent="true"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:background="@color/black"
+        android:gravity="center"
+        android:textColor="#ffff"
+        android:text="@string/hola"/>
+
+    <Switch
+        android:id="@+id/Vswitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:minHeight="48dp"
+        android:text="Ver" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="TODO" />
+
+
+    <RadioButton
+        android:id="@+id/Razul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Cazul"
+        android:text="@string/color_azul" />
+
+    <ImageView
+        android:id="@+id/Fantasma"
+        android:layout_width="185dp"
+        android:layout_height="219dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="FantasmaNegro"
+        android:gravity="center"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/ic_pac_man_svgrepo_com" />
+
+    <ImageView
+        android:id="@+id/Fazul"
+        android:layout_width="185dp"
+        android:layout_height="219dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="FantasmaAzul"
+        android:gravity="center"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/ic_pac_man_svgrepo_comazul" />
+
+
+</RelativeLayout>

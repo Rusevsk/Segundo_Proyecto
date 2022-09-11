@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="apellido">Apellido</string>
+    <string name="nombre">Nombre</string>
+    <string name="entrar">Entrar</string>
+    <string name="seleccione_layout">Seleccione layout</string>
+    <string name="relative">Relative</string>
+    <string name="frame">Frame</string>
+    <string name="todo">TODO</string>
+    <string name="Aparecer">Button</string>
+    <string name="Flappy">flappy</string>
+    <string name="Amarillo">amarillo</string>
+    <string name="seleccione_color">Seleccione color</string>
+    <string name="Android_Verde">android_verde</string>
+    <string name="switchtema">Switchtema</string>
+    <string name="tema">Tema</string>
+    <string name="numero1">Numero1</string>
+</resources>
